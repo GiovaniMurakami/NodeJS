@@ -1,0 +1,5 @@
+{
+    "workbench.activityBar.location": "side",
+    "diffEditor.renderSideBySide": false,
+    "workbench.editor.openSideBySideDirection": "down"
+}
