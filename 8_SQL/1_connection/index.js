@@ -19,7 +19,7 @@ app.get('/', (req, res)=>{
 const conn = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: 'Murakam1@',
+    password: '',
     database: 'nodeMysql'
 })
 conn.connect(function(err){
