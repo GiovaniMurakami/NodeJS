@@ -1,0 +1,124 @@
+* {
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    margin-bottom: .5em;
+}
+
+h2{
+    color: white;
+}
+
+.navbar {
+    border-bottom: 1px solid #ccc;
+    padding: 1em 2em;
+    background-color: #db4c3f;
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li {
+    margin-left: 1em;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container {
+    max-width: 450px;
+    margin: 2em auto;
+}
+
+.form {
+    width: 450px;
+    margin: 0 auto;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5em;
+}
+
+.form-checkbox {
+    flex-direction: row;
+}
+
+.form-checkbox input {
+    margin-right: 10px;
+}
+
+.form-control label {
+    font-weight: bold;
+    margin-bottom: 0.3em;
+}
+
+.form-control input,
+.form-control textarea {
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form input[type="submit"]{
+    background-color: #db4c3f;
+    color: #fff;
+    padding: .7em 1.5em;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.task-list{
+    list-style: none;
+    margin-top: 1em;
+}
+
+.task-list li{
+    padding: .5em;
+    margin-bottom: 1em;
+    border-bottom: 1px solid #efefef;
+    display: flex;
+    justify-content: space-between;
+}
+
+.task-list .title{
+    font-weight: bold;
+    color: #db4c3f;
+    transition: .5s;
+    font-size: 1.2em;
+}
+
+.task-list .title:hover{
+    font-weight: bold;
+    color: #333;
+    transition: .5s;
+    font-size: 1.2em;
+}
+
+.actions{
+    display: flex;
+}
+
+.actions a{
+    font-size: 1.5em;
+    margin-right: .6em;
+    color: #333;
+}
+
+.actions i:hover{
+    color: #db4c3f
+}
