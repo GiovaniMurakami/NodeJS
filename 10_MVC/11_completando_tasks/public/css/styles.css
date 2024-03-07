@@ -131,4 +131,10 @@ form input[type="submit"]{
     background-color: transparent;
     border: none;
     cursor: pointer;
+    margin-left: 0.2em;
+}
+
+.title.done{
+    text-decoration: line-through;
+    color: #ccc;
 }
